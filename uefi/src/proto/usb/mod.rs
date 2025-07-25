@@ -5,6 +5,7 @@
 //! These protocols can be used to interact with and configure USB devices.
 
 pub mod io;
+pub mod host_controller;
 
 pub use uefi_raw::protocol::usb::{
     AsyncUsbTransferCallback, ConfigDescriptor, DeviceDescriptor, EndpointDescriptor,
